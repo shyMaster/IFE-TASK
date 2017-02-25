@@ -4,7 +4,7 @@ task01 任务要求地址：<br>
 task01 在线预览地址：https://johnchow2017.github.io/JohnChow-demo/task01.html
 
 <br>
-##IFE春季班第一阶段任务
+##IFE第一阶段任务
 
 
 　　第一阶段任务一共有 12 个题目，如下：
