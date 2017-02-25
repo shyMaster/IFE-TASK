@@ -6,7 +6,7 @@
 * 理解语义化，合理地使用HTML标签来构建页面
 
 ###任务描述
-* 参考示例图[（点击查看）](https://github.com/JohnChow2017/IFE-TASK/blob/master/2017-task/part1/img/task_1_1_1.jpg)，完成一个HTML页面代码编写（不写CSS，不需要关注样式，只关注文档结构）
+* 参考示例图[（点击查看）](https://johnchow2017.github.io/JohnChow-demo/img/task_1_1_1.jpg)，完成一个HTML页面代码编写（不写CSS，不需要关注样式，只关注文档结构）
 
 ###任务注意事项
 
