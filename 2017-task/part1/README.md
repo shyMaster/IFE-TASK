@@ -1,6 +1,6 @@
 #2017-Baidu IFE
 ##Demo
-task01 任务要求地址：<br>
+task01 任务要求地址：https://github.com/JohnChow2017/IFE-TASK/blob/master/2017-task/part1/task01.md<br>
 task01 在线预览地址：https://johnchow2017.github.io/JohnChow-demo/task01.html
 
 <br>
