@@ -126,15 +126,36 @@ p a{
 	border: 1px solid #dedede;
 }
 
-.aside .input-txt .row lable{
-	text-align: right;
+.aside .aside-li{
 	display: inline-block;
-	/*width: 500px;?*/
-	width: 500px;
+	list-style: none;
+	margin-left: -15px;
 }
 
-.aside .input-txt .row .lable-txt{
+.aside .aside-right{
+	border-left: 4px solid #cdcdcd;
+}
+
+.aside .aside-li .hint{
+	display: block;
+	margin-left: 39%;
+	margin-bottom: 22px;
+	color: #a1a0a6;
+}
+.aside .aside-li .lable-txt{
+	display: inline-block;
+	width: 500px;
 	text-align: right;
-	width:500px;
 	vertical-align: top;
+	margin-bottom: 12px;
+}
+.aside .submit-btn{
+	width:95%;
+	height: 38px;
+	display: block;
+	background-color: #3355d0;
+	color: #fff;
+	border-radius: 10px;
+	margin:0 auto;
+	font-size: 15px;
 }

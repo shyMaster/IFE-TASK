@@ -150,63 +150,51 @@
 </div>
 
 <div class="aside">
-	<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
-	<!-- <h3>侧栏注册窗口标题</h3> -->
-
+	<h2 class="aside-right">&nbsp&nbsp这里以后是一个侧栏，这是侧栏的标题</h2>
 	<form>
-		<div class="input-txt">
-		<p class="row">
-		<lable>请输入邮箱地址：</lable>
-		<input class="input-border" type="text" value="这是一个文本输入框" />
-		</p>
-		<p class="row">
-		<lable class="lable-txt"  style="color:#9d9799">邮箱地址请按要求格式输入</lable>
-		</p>
-		<p class="row">
-		<lable>请输入密码：</lable>
-		<input class="input-border" type="password" value="这是一个文本输入框" />
-		</p>
-		<p class="row">
-		<lable>请重复输入密码：</lable>
-		<input class="input-border" type="password" value="这是一个文本输入框" />
-		</p>
-		<p class="row">
-				<lable class="lable-txt"  style="color:#9d9799">密码请为6-16位英文数字</lable>
-				</p>
-		</div>
+		<ul  class="aside-li">
+			<li>
+				<lable class="lable-txt">请输入邮箱地址</lable>
+				<input type="text" value="这是一个文本输入框">
+			</li>
+			<p class="hint">邮箱地址请按要求格式输入</p>
+			<li>
+				<lable class="lable-txt">请输入密码</lable>
+				<input type="password" value="请输入密码">
+			</li>
+			<li>
+				<lable class="lable-txt">请重复输入密码</lable>
+				<input type="password" value="请输入密码">
+			</li>
+			<p class="hint">密码请为6-16位英文数字</p>
+			<li>
+				<lable class="lable-txt">性别</lable>
+				<input type="radio" checked="checked">男
+				<input type="radio" >女
+			</li>
+				<li>
+				<lable class="lable-txt">城市</lable>
+				<select>
+					<option>上海</option>
+					<option>杭州</option>
+					<option>北京</option>
+				</select>
+				</li>
+				<li>
+					<lable class="lable-txt">爱好</lable>
+					<input type="checkbox">运动
+					<input type="checkbox">艺术
+					<input type="checkbox">科学
+				</li>
+				<li>
+					<lable class="lable-txt">个人描述</lable>
+					<textarea cols="100" rows="8">这是一个多行输入框，输入您的个人描述。</textarea>
+				</li>
+				
+		</ul>
+			<input class="submit-btn" type="button" value="确认提交">		
 	</form>
-	<br>
 
-	<form>
-	<div class="input-txt">
-	    <p class="row">
-		性别：
-		<input type="radio" checked="checked" name="sex">男</input>
-		<input type="radio" name="sex">女</input>
-		</p>
-
-		<p class="row">
-		城市：
-		<select>
-			<option type="上海">上海</option>
-			<option type="北京">北京</option>
-			<option type="杭州">杭州</option>
-		</select>
-		</p>
-		<p class="row">
-		爱好：
-		<input type="checkbox">运动</input>
-		<input type="checkbox">艺术</input>
-		<input type="checkbox">科学</input>
-		</p>
-		<p class="row">
-		个人描述：
-		<textarea cols="30">这是一个多行输入框，输入您的个人描述。</textarea>
-		</p>
-		</div>
-
-		<button type="button">确认提交</button>
-	</form>
 </div>
 
 <div class="public-footer">
