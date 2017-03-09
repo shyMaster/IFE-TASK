@@ -5,6 +5,14 @@ task01 在线预览地址：https://johnchow2017.github.io/JohnChow-demo/task01.
 
 task02 在线预览地址：https://johnchow2017.github.io/JohnChow-demo/task02.html
 
+task03 在线预览地址：https://johnchow2017.github.io/JohnChow-demo/task03.html
+
+task04 在线预览地址：https://johnchow2017.github.io/JohnChow-demo/task04.html
+
+task05 在线预览地址：https://johnchow2017.github.io/JohnChow-demo/task05.html
+
+task06 在线预览地址：https://johnchow2017.github.io/JohnChow-demo/task06.html
+
 <br>
 ##IFE第一阶段任务
 
