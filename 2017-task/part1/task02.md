@@ -11,7 +11,7 @@
   * 实践并掌握CSS的颜色、字体、背景、边框、盒模型、简单布局等样式的定义方式
 
 ###任务描述
-* 基于第一个任务“零基础HTML编码”的代码，参考 [示例图（点击查看）](https://github.com/JohnChow2017/IFE-TASK/blob/master/2017-task/part1/img/task_1_2_1.jpg)，在步骤一的代码基础上增加CSS样式代码的编写
+* 基于第一个任务“零基础HTML编码”的代码，参考 [示例图（点击查看）](https://johnchow2017.github.io/JohnChow-demo/img/task_1_2_1.jpg)，在步骤一的代码基础上增加CSS样式代码的编写
 
 ###任务注意事项
 
