@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta chearset="UTF-8" />
+<meta charset="UTF-8" />
 <title>task06</title>	
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <style type="text/css">
@@ -127,10 +127,28 @@
 		margin-top: -9px;
 		margin-bottom: 0;	
 	}
+
 	.container .one .txt-one-txt{
-		width: 228px;
+		width: 641px;
 		margin-top: 42px;
-		margin-right: 28px;
+		/*margin-right: 28px;*/
+	}
+	.container .one .txt-one-txt .what-txt{
+		display: inline-block;
+		width: 228px;
+
+
+	}
+	.container .one .txt-one-txt .when-txt{
+		display: inline-block;
+		
+		width: 228px;
+		margin-left: 24px;
+	}
+	.container .one .txt-one-txt .how-txt{
+		display: inline-block;
+		float: right;
+		width: 129px;
 	}
 	.container .one .txt-one-txt .what{
 		font-size: 16px;
@@ -143,9 +161,6 @@
 		font-size: 12px;
 		/*font-family: "宋体";*/
 		color: #767777;
-		display: inline-block;
-		float: left;
-
 	}
 	.container .one .txt-one-txt .when{
 		font-size: 16px;
@@ -160,7 +175,84 @@
 		color: #231815;
 		opacity: 0.7;
 
+
 	}
+	.container .one .txt-one-txt .how{
+		font-size: 16px;
+		/*font-family: "微软雅黑";*/
+		font-weight: bold;
+		text-decoration: underline;
+		color: #cc7680;
+	}
+	.container .one .txt-one-txt .how-text{
+		font-size: 12px;
+		/*font-family: "微软雅黑";*/
+		color: #231815;
+		opacity: 0.7;
+
+	}
+	.container .one .txt-one-txt .how-txt .pp{
+		font-size: 12px;
+		/*font-family: "微软雅黑";*/
+		color: #231815;
+		opacity: 0.7;
+	}
+	.container .one .txt-one-txt .how-txt .pp .item{
+		font-size: 12px;
+		/*font-family: "微软雅黑";*/
+		font-style: italic;
+		opacity: 0.7;
+		color: #cd4a48;
+	}
+	.container .one .txt-one-txt .how-txt .www{
+		display: inline-block;
+		margin-bottom: 0;
+	}
+	.container .two .two-left .two-left-text .the{
+		font-size: 72px;
+		color: #f5e327;
+		/*font-family: "黑体";*/
+		font-weight: bold;
+		font-style: italic;
+		padding-right: 15px;
+
+	}
+	.container .two .two-left .two-left-text .technologe{
+		font-size: 35px;
+		color: #11456b;
+		/*font-family: "黑体";*/
+		font-weight: bold;
+
+	}
+	.container .two .two-left .two-left-text .technologe-c{
+		font-size: 33px;
+		color: #11456b;
+		/*font-family: "黑体";*/
+		font-weight: bold;
+		display: block;
+		margin-bottom: 14px;
+	}
+	.container .two .two-left{
+		width: 416px;
+	}
+	.container .two .two-left .two-left-text{
+		border-bottom: #11456b 2px solid;
+
+	}
+	.container .two .two-left .left-txt{
+		font-size: 12px;
+		color: #767777;
+	}
+	.container .two .two-left .lll{
+		position: relative;
+	}
+	.container .two .two-left .lll .left-img{
+		float: right;
+		position: absolute;
+		top: 98px;
+		left: 214px;
+	}
+	
 </style>
 </head>
 <body>
@@ -199,6 +291,16 @@
 				前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端
 				前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
 			</div>
+			<div class="how-txt">
+				<p class="how">How</p>
+				<p class="how-text">前端前端前端前端前端前端前端前端前端前端前端前端
+				</p>
+				<div class="www">
+				<p class="pp">What-------<item class="item">40%</item></p>
+				<p class="pp">What-------<item class="item">30%</item></p>
+				<p class="pp">What-------<item class="item">30%</item></p>
+				</div>
+			</div>
 			<div class="when-txt">
 				<p class="when">When</p>
 				<p class="when-text">前端前端前端前端前端前端前端前端前端前端前端前端
@@ -207,10 +309,54 @@
 				前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端
 				前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
 			</div>
-			<div class="how-txt"></div>
+			
 		</div>
 	</div>
-	<div class="two"></div>
+	<div class="two">
+		<div class="two-left">
+			<div class="two-left-text">
+				<item class="the">THE</item>
+				<item class="technologe">TECHNOLOGE</item>
+				<item class="technologe">OF FRONT</item>
+				<item class="technologe-c">前端技术领域</item>
+			</div>
+			<div class="lll clearfloat">
+			<div class="left-txt">
+				<item>aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</item>
+			</div>
+			<div class="left-img"><img src="./img/task06-two-img.png"></div>
+			</div>
+		</div>
+		<div class="two-right"></div>
+	</div>
 	<div class="footer">
 		<div class="footer-txt">
 			<a  class="footer-txt-a" href="#">ife.baidu.com</a>
