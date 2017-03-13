@@ -1,21 +1,26 @@
-# 任务一：零基础HTML编码
+# 任务三：三栏式布局
 ###任务目的
-* 了解HTML的定义、概念、发展简史
-* 掌握常用HTML标签的含义、用法
-* 能够基于设计稿来合理规划HTML文档结构
-* 理解语义化，合理地使用HTML标签来构建页面
+* 掌握HTML/CSS布局的概念
+* 掌握盒模型的概念
+* 掌握position与float的概念以及在布局时的用法
 
 ###任务描述
-* 参考示例图[（点击查看）](https://johnchow2017.github.io/JohnChow-demo/img/task_1_1_1.jpg)，完成一个HTML页面代码编写（不写CSS，不需要关注样式，只关注文档结构）
+* 使用 HTML 与 CSS 按照 [示例图（点击查看）](https://johnchow2017.github.io/JohnChow-demo/img/task_1_3_1.png) 实现三栏式布局。
+* 左右两栏宽度固定，中间一栏根据父元素宽度填充满，最外面的框应理解为浏览器。背景色为 #eee 区域的高度取决于三个子元素中最高的高度。
 
 ###任务注意事项
 
-* 只需要完成HTML代码编写，不需要写CSS
-* 示例图仅为参考，不需要完全实现一致，其中的图片、文案均可自行设定
-* 尽可能多地尝试更多的HTML标签
+* 尝试 position 和 float 的效果，思考它们的异同和应用场景。
+* 注意测试不同情况，尤其是极端情况下的效果。
+* 图片和文字内容请自行替换，尽可能体现团队的特色。
+* 调节浏览器宽度，固定宽度和自适应宽度的效果始终符合预期。
+* 改变中间一栏的内容长度，以确保在中间一栏较高和右边一栏较高时，父元素的高度始终为子元素中最高的高度。
+* 其他效果图中给出的标识均被正确地实现。
 
 ###在线学习参考资料
 
-* [Web相关名词通俗解释](https://www.zhihu.com/question/22689579)
-* [MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
-* [慕课HTML+CSS基础教程视频](http://www.imooc.com/learn/9)
+* [MDN：position](https://developer.mozilla.org/zh-CN/docs/Web/CSS/position)：了解 CSS position 属性的基本知识
+* [MDN：float](https://developer.mozilla.org/en-US/docs/Web/CSS/float)：了解 CSS float 属性的基本知识
+* [Learn CSS Positioning in Ten Steps](http://www.barelyfitz.com/screencast/html-training/css/positioning/)：通过具体的例子熟悉 position 属性
+* [清除浮动（clearfix hack）](http://zh.learnlayout.com/clearfix.html)：清除浮动是什么，如何简单地清除浮动
+* [StackOverflow：Which method of ‘clearfix’ is best?](http://stackoverflow.com/questions/211383/what-methods-of-clearfix-can-i-use)：清除浮动黑科技完整解读
