@@ -1,21 +1,24 @@
-# 任务一：零基础HTML编码
+# 任务四：定位和居中问题
 ###任务目的
-* 了解HTML的定义、概念、发展简史
-* 掌握常用HTML标签的含义、用法
-* 能够基于设计稿来合理规划HTML文档结构
-* 理解语义化，合理地使用HTML标签来构建页面
+* 实践HTML/CSS布局方式
+* 深入了解position等CSS属性
 
 ###任务描述
-* 参考示例图[（点击查看）](https://johnchow2017.github.io/JohnChow-demo/img/task_1_1_1.jpg)，完成一个HTML页面代码编写（不写CSS，不需要关注样式，只关注文档结构）
+* 实现如 [示例图（点击打开）](https://johnchow2017.github.io/JohnChow-demo/img/task_1_4_1.png) 的效果
+* 灰色元素水平垂直居中，有两个四分之一圆位于其左上角和右下角。
 
 ###任务注意事项
 
-* 只需要完成HTML代码编写，不需要写CSS
-* 示例图仅为参考，不需要完全实现一致，其中的图片、文案均可自行设定
-* 尽可能多地尝试更多的HTML标签
+* 思考不同情况下（如灰色高度是根据内容动态变化的）水平垂直居中的解决方案。
+* 动手试一试各种情况的组合，父元素和子元素分别取不同的 position 值。思考 position 属性各种取值的真正含义，尤其是 absolute 究竟是相对谁而言的。
+* 注意测试不同情况，尤其是极端情况下的效果。
+* 调节浏览器宽度，灰色元素始终水平居中。
+* 调节浏览器高度，灰色元素始终垂直居中。
+* 调节浏览器高度和宽度，黄色扇形的定位始终准确。
+* 其他效果图中给出的标识均被正确地实现，错一项扣一分。
 
 ###在线学习参考资料
 
-* [Web相关名词通俗解释](https://www.zhihu.com/question/22689579)
-* [MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
-* [慕课HTML+CSS基础教程视频](http://www.imooc.com/learn/9)
+* [HTML和CSS高级指南之二——定位详解](http://www.w3cplus.com/css/advanced-html-css-lesson2-detailed-css-positioning.html)：大漠老师手把手教你，这次彻底搞懂定位问题
+* [Centering in CSS: A Complete Guide](https://css-tricks.com/centering-css-complete-guide/)：完整讨论了不同情况下的居中方案，建议自己思考之后再看答案
+* [Get HTML & CSS Tips In Your Inbox](http://howtocenterincss.com/)：有人写了一个作弊工具生成居中代码，但是看着代码你明白为什么吗
