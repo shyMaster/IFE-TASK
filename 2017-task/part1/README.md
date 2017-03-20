@@ -18,10 +18,11 @@ task05 在线预览地址：https://johnchow2017.github.io/JohnChow-demo/task05.
 task06 任务要求地址：https://github.com/JohnChow2017/IFE-TASK/blob/master/2017-task/part1/task06.md<br>
 task06 在线预览地址：https://johnchow2017.github.io/JohnChow-demo/task06.html
 
+task07 任务要求地址：https://github.com/JohnChow2017/IFE-TASK/blob/master/2017-task/part1/task07.md<br>
 task07 在线预览地址：https://johnchow2017.github.io/JohnChow-demo/task07.html
 
 <br>
-##IFE第一阶段任务
+## IFE第一阶段任务
 
 第一阶段任务一共有 12 个题目，如下：
 
@@ -50,5 +51,5 @@ task07 在线预览地址：https://johnchow2017.github.io/JohnChow-demo/task07.
 * 任务十二：学习CSS 3的新特性
 
 
-##NOTES
-####task01：零基础HTML编码
+## NOTES
+#### task01：零基础HTML编码
