@@ -1,21 +1,32 @@
-# 任务七：实现常见的技术产品官网的页面架构及样式布局
+# 任务十一：移动Web页面布局实践
 ### 任务目的
-* 通过实现一个常见的技术产品官网，加深对于HTML，CSS的实战能力
-* 学习掌握如何在没有标注的情况下实现设计稿到页面的精确转变
+* 进行移动开发时的HTML及CSS实践
+* 掌握移动Web开发在页面架构和布局的方法及差异性
+* 掌握移动Web开发页面调试的方法
 
 ### 任务描述
-* 通过HTML及CSS实现设计稿 [设计稿PSD文件（点击下载）](http://7xrp04.com1.z0.glb.clouddn.com/task_1_7_1.psd)，效果如 [效果图（点击打开）](https://johnchow2017.github.io/JohnChow-demo/img/task_1_7_2.jpg)
-* 设计稿是有一定宽度的，这个宽度为页面的最小宽度，也就是说，当浏览器窗口宽度小于设计稿宽度时，允许出现横向滚动条，页面内容宽度保持不变，但是当浏览器窗口宽度大于设计稿宽度时，页面部分内容的宽度应该保持和浏览器窗口宽度一致，具体哪些部分题目不做具体指明，看看大家的判断如何。
+* 实现与 [设计图（点击查看）](https://johnchow2017.github.io/JohnChow-demo/img/task_1_11_1.jpg) 一致的移动端Web页面
 
 ### 任务注意事项
 
-* 只需要完成HTML，CSS代码编写，不需要写JavaScript
-* 设计稿中的图片、文案均可自行设定
-* 在Chrome中完美实现与设计稿的各项字体、布局、内外边距等样式
-* 有能力的同学可以尝试跨浏览器的兼容性
+* 本任务只涉及 HTML 及 CSS
+* 实现的页面和设计图在iOS Safari，微信，Android浏览器中均基本一致
+* HTML 及 CSS 代码结构清晰、规范
+* 尝试在适合的地方使用CSS 3中的flex布局
 * 有能力的同学可以在实现一遍后尝试用less, sass或者stylus等再实现一次
 
 ### 在线学习参考资料
 
-* [MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
-* [MDN CSS入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
+* [MDN:手机网页开发](https://developer.mozilla.org/zh-CN/docs/Web/Guide/Mobile)
+* [MDN:在移动浏览器中使用viewport元标签控制布局](https://developer.mozilla.org/zh-CN/docs/Mobile/Viewport_meta_tag)
+* [移动前端开发和 Web 前端开发的区别是什么](https://www.zhihu.com/question/20269059)
+* [Alloyteam移动开发规范概述](http://alloyteam.github.io/Spirit/modules/Standard/)
+* [手机/移动前端开发需要注意的20个要点](http://sentsin.com/web/54.html)
+* [w3cplus响应式技术资源](http://www.w3cplus.com/responsive)
+* [浅谈移动Web开发](http://www.infoq.com/cn/articles/development-of-the-mobile-web-deep-concept)
+* [Alloyteam Mars](https://github.com/AlloyTeam/Mars)
+* [移动WEB开发入门](http://junmer.github.io/mobile-dev-get-started/)
+* [移动开发资源集合](https://github.com/jtyjty99999/mobileTech)
+* [The Mobile Web Handbook](http://quirksmode.org/mobilewebhandbook/)
+* [MobileWeb 适配总结](http://www.w3ctech.com/topic/979)
+* [移动前端不得不了解的html5 head 头标签](http://www.css88.com/archives/5480)
