@@ -21,6 +21,20 @@ task06 在线预览地址：https://johnchow2017.github.io/JohnChow-demo/task06.
 task07 任务要求地址：https://github.com/JohnChow2017/IFE-TASK/blob/master/2017-task/part1/task07.md<br>
 task07 在线预览地址：https://johnchow2017.github.io/JohnChow-demo/task07.html
 
+task08 任务要求地址：https://github.com/JohnChow2017/IFE-TASK/blob/master/2017-task/part1/task08.md<br>
+task08 在线预览地址：
+
+task09 任务要求地址：https://github.com/JohnChow2017/IFE-TASK/blob/master/2017-task/part1/task09.md<br>
+task09 在线预览地址：
+
+task10 任务要求地址：https://github.com/JohnChow2017/IFE-TASK/blob/master/2017-task/part1/task10.md<br>
+task10 在线预览地址：
+
+task11 任务要求地址：https://github.com/JohnChow2017/IFE-TASK/blob/master/2017-task/part1/task11.md<br>
+task11 在线预览地址：
+
+task12 任务要求地址：https://github.com/JohnChow2017/IFE-TASK/blob/master/2017-task/part1/task12.md<br>
+task12 在线预览地址：
 <br>
 ## IFE第一阶段任务
 
