@@ -1,21 +1,27 @@
-# 任务七：实现常见的技术产品官网的页面架构及样式布局
+# 任务八：JavaScript和树（二）
 ### 任务目的
-* 通过实现一个常见的技术产品官网，加深对于HTML，CSS的实战能力
-* 学习掌握如何在没有标注的情况下实现设计稿到页面的精确转变
+* 熟练JavaScript
+* 学习树这种数据结构的基本知识
 
 ### 任务描述
-* 通过HTML及CSS实现设计稿 [设计稿PSD文件（点击下载）](http://7xrp04.com1.z0.glb.clouddn.com/task_1_7_1.psd)，效果如 [效果图（点击打开）](https://johnchow2017.github.io/JohnChow-demo/img/task_1_7_2.jpg)
-* 设计稿是有一定宽度的，这个宽度为页面的最小宽度，也就是说，当浏览器窗口宽度小于设计稿宽度时，允许出现横向滚动条，页面内容宽度保持不变，但是当浏览器窗口宽度大于设计稿宽度时，页面部分内容的宽度应该保持和浏览器窗口宽度一致，具体哪些部分题目不做具体指明，看看大家的判断如何。
-
+* 基于任务七，参考[示例图](https://johnchow2017.github.io/JohnChow-demo/img/task_2_23_1.jpg)，将二叉树变成了多叉树，并且每一个节点中带有内容
+* 提供一个按钮，显示开始遍历，点击后，以动画的形式呈现遍历的过程
+* 当前被遍历到的节点做一个特殊显示（比如不同的颜色）
+* 每隔一段时间（500ms，1s等时间自定）再遍历下一个节点
+* 增加一个输入框及一个“查询”按钮，点击按钮时，开始在树中以动画形式查找节点内容和输入框中内容一致的节点，找到后以特殊样式显示该节点，找不到的话给出找不到的提示。查询过程中的展示过程和遍历过程保持一致
 ### 任务注意事项
 
-* 只需要完成HTML，CSS代码编写，不需要写JavaScript
-* 设计稿中的图片、文案均可自行设定
-* 在Chrome中完美实现与设计稿的各项字体、布局、内外边距等样式
-* 有能力的同学可以尝试跨浏览器的兼容性
-* 有能力的同学可以在实现一遍后尝试用less, sass或者stylus等再实现一次
+* 树的遍历算法和方式自定，但推荐可以提供多种算法的展示（增加多个按钮，每个按钮对应不同的算法）
+* 如果按照示例图中展示树，可以使用flexbox布局
+* 实现简单功能的同时，请仔细学习JavaScript基本语法、事件、DOM相关的知识
+* 请注意代码风格的整齐、优雅
+* 代码中含有必要的注释
+* 建议不使用任何第三方库、框架
 
 ### 在线学习参考资料
 
-* [MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
-* [MDN CSS入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
+* [JavaScript入门篇](http://www.imooc.com/view/36)
+* [MDN JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+* [js数据结构和算法 二叉树](https://segmentfault.com/a/1190000000740261)
+* [Data Structures With JavaScript: Tree](http://code.tutsplus.com/articles/data-structures-with-javascript-tree--cms-23393)
+* [Computer science in JavaScript: Binary search tree](https://www.nczonline.net/blog/2009/06/09/computer-science-in-javascript-binary-search-tree-part-1/)
