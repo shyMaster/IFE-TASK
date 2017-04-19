@@ -1,21 +1,52 @@
-# 任务七：实现常见的技术产品官网的页面架构及样式布局
+# 任务一：零基础JavaScript编码（一）
 ### 任务目的
-* 通过实现一个常见的技术产品官网，加深对于HTML，CSS的实战能力
-* 学习掌握如何在没有标注的情况下实现设计稿到页面的精确转变
+* JavaScript初体验
+* 初步明白JavaScript的简单基本语法，如变量、函数
+* 初步了解JavaScript的事件是什么
+* 初步了解JavaScript中的DOM是什么
 
 ### 任务描述
-* 通过HTML及CSS实现设计稿 [设计稿PSD文件（点击下载）](http://7xrp04.com1.z0.glb.clouddn.com/task_1_7_1.psd)，效果如 [效果图（点击打开）](https://johnchow2017.github.io/JohnChow-demo/img/task_1_7_2.jpg)
-* 设计稿是有一定宽度的，这个宽度为页面的最小宽度，也就是说，当浏览器窗口宽度小于设计稿宽度时，允许出现横向滚动条，页面内容宽度保持不变，但是当浏览器窗口宽度大于设计稿宽度时，页面部分内容的宽度应该保持和浏览器窗口宽度一致，具体哪些部分题目不做具体指明，看看大家的判断如何。
+* 参考以下示例代码，补充其中的JavaScript功能，完成一个JavaScript代码的编写
+* 本任务完成的功能为：用户可以在输入框中输入任何内容，点击“确认填写”按钮后，用户输入的内容会显示在“您输入的值是”文字的右边
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IFE JavaScript Task 01</title>
+  </head>
+<body>
 
+  <label>请输入北京今天空气质量：<input id="aqi-input" type="text"></label>
+  <button id="button">确认填写</button>
+
+  <div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
+
+<script type="text/javascript">
+
+(function() {
+  /*    
+  在注释下方写下代码
+  给按钮button绑定一个点击事件
+  在事件处理函数中
+  获取aqi-input输入的值，并显示在aqi-display中
+  */
+
+})();
+
+</script>
+</body>
+</html>
+```
 ### 任务注意事项
 
-* 只需要完成HTML，CSS代码编写，不需要写JavaScript
-* 设计稿中的图片、文案均可自行设定
-* 在Chrome中完美实现与设计稿的各项字体、布局、内外边距等样式
-* 有能力的同学可以尝试跨浏览器的兼容性
-* 有能力的同学可以在实现一遍后尝试用less, sass或者stylus等再实现一次
-
+* 实现简单功能的同时，请仔细学习JavaScript基本语法、事件、DOM相关的知识
+* 请注意代码风格的整齐、优雅
+* 代码中含有必要的注释
+* 可以不考虑输入的合法性
+* 建议不使用任何第三方库、框架
+* 示例代码仅为示例，可以直接使用，也可以完全自己重写
 ### 在线学习参考资料
 
-* [MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
-* [MDN CSS入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
+* [JavaScript入门篇](http://www.imooc.com/view/36)
+* [MDN JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
