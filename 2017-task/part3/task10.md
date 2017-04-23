@@ -1,21 +1,29 @@
-# 任务七：实现常见的技术产品官网的页面架构及样式布局
+# 正则表达式之入门
 ### 任务目的
-* 通过实现一个常见的技术产品官网，加深对于HTML，CSS的实战能力
-* 学习掌握如何在没有标注的情况下实现设计稿到页面的精确转变
+* 掌握JavaScript正则表达式编写规则
+* 了解JavaScript中的正则表达式的特殊字符
+* 了解JavaScript提供的正则表达式相关方法
+* 能用正则表达式做一些简单文本或者数字校验
 
 ### 任务描述
-* 通过HTML及CSS实现设计稿 [设计稿PSD文件（点击下载）](http://7xrp04.com1.z0.glb.clouddn.com/task_1_7_1.psd)，效果如 [效果图（点击打开）](https://johnchow2017.github.io/JohnChow-demo/img/task_1_7_2.jpg)
-* 设计稿是有一定宽度的，这个宽度为页面的最小宽度，也就是说，当浏览器窗口宽度小于设计稿宽度时，允许出现横向滚动条，页面内容宽度保持不变，但是当浏览器窗口宽度大于设计稿宽度时，页面部分内容的宽度应该保持和浏览器窗口宽度一致，具体哪些部分题目不做具体指明，看看大家的判断如何。
+1.编写一个判断给定数字是否为手机号码的正则表达式，测试用例参照但不限于：
+```javascript
+18812011232  // 测试结果应该为 true
+18812312     // false
+12345678909  // false
+```
+```javascript
+foo foo bar       // true
+foo bar foo       // false  有重复单词但是不相邻
+foo  barbar bar   // false
+```
 
 ### 任务注意事项
 
-* 只需要完成HTML，CSS代码编写，不需要写JavaScript
-* 设计稿中的图片、文案均可自行设定
-* 在Chrome中完美实现与设计稿的各项字体、布局、内外边距等样式
-* 有能力的同学可以尝试跨浏览器的兼容性
-* 有能力的同学可以在实现一遍后尝试用less, sass或者stylus等再实现一次
+* 完成任务之后，可以对比别人的实现方案，但不建议未尝试就直接搜索答案
+* 在正则表达式的世界中，一个问题往往不止一种方案，可以尝试多种方法
 
 ### 在线学习参考资料
 
-* [MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
-* [MDN CSS入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
+* [MDN Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions): 了解JavaScript中正则表达式的基本知识
+* [正则表达式30分钟入门教程](http://deerchao.net/tutorials/regex/regex-1.htm): 30分钟入门
