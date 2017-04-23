@@ -66,7 +66,7 @@ task21 在线预览地址：
 task22 任务要求地址：https://github.com/JohnChow2017/IFE-TASK/blob/master/2017-task/part3/task22.md<br>
 task22 在线预览地址：
 <br>
-## IFE第一阶段任务
+## IFE第三阶段任务
 
 第一阶段任务一共有 22 个题目，如下：
 
