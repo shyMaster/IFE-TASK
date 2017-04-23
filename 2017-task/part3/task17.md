@@ -1,21 +1,25 @@
-# 任务七：实现常见的技术产品官网的页面架构及样式布局
+# 实现树形组件
 ### 任务目的
-* 通过实现一个常见的技术产品官网，加深对于HTML，CSS的实战能力
-* 学习掌握如何在没有标注的情况下实现设计稿到页面的精确转变
+● 练习综合运用HTML、CSS排版
+● 练习 JavaSript 递归使用
+● 练习 css 控制 html 隐藏和显示
 
 ### 任务描述
-* 通过HTML及CSS实现设计稿 [设计稿PSD文件（点击下载）](http://7xrp04.com1.z0.glb.clouddn.com/task_1_7_1.psd)，效果如 [效果图（点击打开）](https://johnchow2017.github.io/JohnChow-demo/img/task_1_7_2.jpg)
-* 设计稿是有一定宽度的，这个宽度为页面的最小宽度，也就是说，当浏览器窗口宽度小于设计稿宽度时，允许出现横向滚动条，页面内容宽度保持不变，但是当浏览器窗口宽度大于设计稿宽度时，页面部分内容的宽度应该保持和浏览器窗口宽度一致，具体哪些部分题目不做具体指明，看看大家的判断如何。
+![](https://johnchow2017.github.io/JohnChow-demo/1487843670948671f49317f95debe1c90dfd86167bc30.png)
+● 类似window 资源管理器
+● 支持无限层级展示
+● 支持文件夹展开和隐藏
+● 不必支持显示文件夹图片
+● 支持数据格式如下：
+```var nodes = [ {name: "父节点1", children: [ {name: "子节点1"}, {name: "子节点2"} ]}, {name: "父节点2", children: [ {name: "子节点3"}, {name: "子节点4", children:[ {name:"子节点5"} ]} ]} ];
+```
 
 ### 任务注意事项
 
-* 只需要完成HTML，CSS代码编写，不需要写JavaScript
-* 设计稿中的图片、文案均可自行设定
-* 在Chrome中完美实现与设计稿的各项字体、布局、内外边距等样式
-* 有能力的同学可以尝试跨浏览器的兼容性
-* 有能力的同学可以在实现一遍后尝试用less, sass或者stylus等再实现一次
+● 不可以使用 Jquery 等类似库
+● 代码关键处必须要有注释
 
 ### 在线学习参考资料
 
-* [MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
-* [MDN CSS入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
+http://www.programgo.com/article/1773206948/;jsessionid=B79D72FB09013DA7FDC804E9E34D4C4E
+https://www.jstree.com/
