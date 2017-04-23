@@ -1,21 +1,31 @@
-# 任务七：实现常见的技术产品官网的页面架构及样式布局
+# 封装DOM动画类库（一）
 ### 任务目的
-* 通过实现一个常见的技术产品官网，加深对于HTML，CSS的实战能力
-* 学习掌握如何在没有标注的情况下实现设计稿到页面的精确转变
+* 理解DOM动画的本质
+* 深入理解JS DOM动画实现原理
+* 学习和掌握javascript类库的设计与开发
+* 通过封装类库合理使用设计模式，理解设计模式及其带来好处
 
 ### 任务描述
-* 通过HTML及CSS实现设计稿 [设计稿PSD文件（点击下载）](http://7xrp04.com1.z0.glb.clouddn.com/task_1_7_1.psd)，效果如 [效果图（点击打开）](https://johnchow2017.github.io/JohnChow-demo/img/task_1_7_2.jpg)
-* 设计稿是有一定宽度的，这个宽度为页面的最小宽度，也就是说，当浏览器窗口宽度小于设计稿宽度时，允许出现横向滚动条，页面内容宽度保持不变，但是当浏览器窗口宽度大于设计稿宽度时，页面部分内容的宽度应该保持和浏览器窗口宽度一致，具体哪些部分题目不做具体指明，看看大家的判断如何。
+* 动画库API（接口文档）设计参考velocity.js，参考其源码实现，类似：Animation(DOM元素集合，变化CSS属性集合，选项)或者Animation(DOM元素集合).animation(变化CSS属性集合，选项)。
+* 动画选项设计靠拢CSS3动画概念（duration，time-function/easing，delay，iteration-count／loop），采用补间动画设计，其中time-function/easing选项最好采用贝塞尔曲线算法实现，并与定义好ease，ease-in,ease-out等等。
+* 适当设计回调函数选项（begin，complete，progress）。
+* 设计动画命令，用于调用常用动画（比如淡入淡出Animation(DOM元素集合).fadeIn(选项)）和动画控制（比如停止动画：Animation(DOM元素集合).stop()）。
 
 ### 任务注意事项
 
-* 只需要完成HTML，CSS代码编写，不需要写JavaScript
-* 设计稿中的图片、文案均可自行设定
-* 在Chrome中完美实现与设计稿的各项字体、布局、内外边距等样式
-* 有能力的同学可以尝试跨浏览器的兼容性
-* 有能力的同学可以在实现一遍后尝试用less, sass或者stylus等再实现一次
+* 使用requestAnimationFrame代替定时器
+* 最好采用面向对象方式开发，对外提供umd接口
+* 运用合理的设计模式：此库可以用到迭代器模式、外观模式、策略模式、命令模式等
+* 代码拥有良好的注释
+* 尽量实现较多的缓动效果
+* 尽量提高动画性能
+* 动画库尽量能兼容老版浏览器
 
 ### 在线学习参考资料
 
-* [MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
-* [MDN CSS入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
+* [velocity.js](http://velocityjs.org/)
+* [慕课网课程- Velocity.js实现弹出式相框](http://www.imooc.com/learn/471)
+* [实现tween.js](http://www.zhangxinxu.com/wordpress/?p=5828)
+* [慕课网课程-js动画效果](http://www.imooc.com/learn/167)
+* [慕课网课程-原生js实现帧动画库](http://www.imooc.com/learn/659)
+* [CSS动画 VS JS动画，哪个更快](https://davidwalsh.name/css-js-animation)
