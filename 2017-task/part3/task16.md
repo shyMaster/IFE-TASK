@@ -1,21 +1,25 @@
-# 任务七：实现常见的技术产品官网的页面架构及样式布局
+# 仿豆瓣音乐播放器
 ### 任务目的
-* 通过实现一个常见的技术产品官网，加深对于HTML，CSS的实战能力
-* 学习掌握如何在没有标注的情况下实现设计稿到页面的精确转变
+● 练习综合运用HTML、CSS、JavaScript实现功能
+● 熟悉 html5 audio 使用
+● 应用的整体架构设计
+![](https://johnchow2017.github.io/JohnChow-demo/img/1487843329988d735750f3dcc40fb7bd684b425ceb2b0.png)
 
 ### 任务描述
-* 通过HTML及CSS实现设计稿 [设计稿PSD文件（点击下载）](http://7xrp04.com1.z0.glb.clouddn.com/task_1_7_1.psd)，效果如 [效果图（点击打开）](https://johnchow2017.github.io/JohnChow-demo/img/task_1_7_2.jpg)
-* 设计稿是有一定宽度的，这个宽度为页面的最小宽度，也就是说，当浏览器窗口宽度小于设计稿宽度时，允许出现横向滚动条，页面内容宽度保持不变，但是当浏览器窗口宽度大于设计稿宽度时，页面部分内容的宽度应该保持和浏览器窗口宽度一致，具体哪些部分题目不做具体指明，看看大家的判断如何。
+● 模仿豆瓣音乐播放器，编写基于 html5的音乐播放器
+● 顺序播放音乐列表支持循环，播放，暂停，快进，声音大小控制
+● 有封面图片展示以及歌曲名称
+● 音乐文件可以是本地或者来自网络
+● 界面尽量做到简洁整齐不必和豆瓣界面一样
 
 ### 任务注意事项
 
-* 只需要完成HTML，CSS代码编写，不需要写JavaScript
-* 设计稿中的图片、文案均可自行设定
-* 在Chrome中完美实现与设计稿的各项字体、布局、内外边距等样式
-* 有能力的同学可以尝试跨浏览器的兼容性
-* 有能力的同学可以在实现一遍后尝试用less, sass或者stylus等再实现一次
+● 可以使用 Jquery 等类库开发
+● 代码关键处必须要有注释
+● 布局可以使用 bootstrap 等css 布局框架
+● 尽量做到控制和数据分离
+● 兼容最新 chrome 浏览器即可
 
 ### 在线学习参考资料
 
-* [MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
-* [MDN CSS入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
