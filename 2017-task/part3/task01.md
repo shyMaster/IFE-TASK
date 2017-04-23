@@ -10,7 +10,7 @@
 * 实践并掌握CSS的颜色、字体、背景、边框、盒模型、简单布局等样式的定义方式
 
 ### 任务描述
-* 实现图示效果[（点击查看）]((https://johnchow2017.github.io/JohnChow-demo/img/006tNbRwly1fcr5jmrmujg30cj06xqv5.gif))
+* 实现图示效果[（点击查看）](https://johnchow2017.github.io/JohnChow-demo/img/006tNbRwly1fcr5jmrmujg30cj06xqv5.gif)
 * 实现文字的流光渐变动画
 * 背景图需要进行模糊处理
 * 实现按钮边框的从中间到两边扩展开
