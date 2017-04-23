@@ -1,21 +1,59 @@
-# 任务七：实现常见的技术产品官网的页面架构及样式布局
+# 动态数据绑定（二）
 ### 任务目的
-* 通过实现一个常见的技术产品官网，加深对于HTML，CSS的实战能力
-* 学习掌握如何在没有标注的情况下实现设计稿到页面的精确转变
+* 在实践中使用递归思想
+* 了解设计模式中的“发布-订阅模式”
 
 ### 任务描述
-* 通过HTML及CSS实现设计稿 [设计稿PSD文件（点击下载）](http://7xrp04.com1.z0.glb.clouddn.com/task_1_7_1.psd)，效果如 [效果图（点击打开）](https://johnchow2017.github.io/JohnChow-demo/img/task_1_7_2.jpg)
-* 设计稿是有一定宽度的，这个宽度为页面的最小宽度，也就是说，当浏览器窗口宽度小于设计稿宽度时，允许出现横向滚动条，页面内容宽度保持不变，但是当浏览器窗口宽度大于设计稿宽度时，页面部分内容的宽度应该保持和浏览器窗口宽度一致，具体哪些部分题目不做具体指明，看看大家的判断如何。
+这是“动态数据绑定”系列的第二题。在第一题的基础上，我们继续考虑以下难点：
 
+1.如果传入参数对象是一个“比较深”的对象（也就是其属性值也可能是对象），那该怎么办呢？举个例子。
+```javascript
+// 一个“比较深”的对象：某些属性的值也是一个对象
+let obj = {
+ a: 1,
+ b: 2,
+ c: {
+     d: 3,
+     e: 4
+ }
+}
+```
+2.如果设置新的值是一个对象的话，新设置的对象的属性是否能能继续响应 getter 和 setter。举个例子。
+ ```javascript
+ let app1 = new Observer({
+         name: 'youngwind',
+         age: 25
+ });
+
+ app1.data.name = {
+         lastName: 'liang',
+         firstName: 'shaofeng'
+ };
+
+ app1.data.name.lastName;
+ // 这里还需要输出 '你访问了 lastName '
+ app1.data.name.firstName = 'lalala';
+ // 这里还需要输出 '你设置了firstName, 新的值为 lalala'
+```
+3.考虑传递回调函数。在实际应用中，当特定数据发生改变的时候，我们是希望做一些特定的事情的，而不是每一次都只能打印出一些信息。所以，我们需要支持传入回调函数的功能。举个例子。
+```javascriptlet app1 = new Observer({
+         name: 'youngwind',
+         age: 25
+ });
+
+ // 你需要实现 $watch 这个 API
+ app1.$watch('age', function(age) {
+         console.log(`我的年纪变了，现在已经是：${age}岁了`)
+ });
+
+ app1.data.age = 100; // 输出：'我的年纪变了，现在已经是100岁了'
+ ```
 ### 任务注意事项
 
-* 只需要完成HTML，CSS代码编写，不需要写JavaScript
-* 设计稿中的图片、文案均可自行设定
-* 在Chrome中完美实现与设计稿的各项字体、布局、内外边距等样式
-* 有能力的同学可以尝试跨浏览器的兼容性
-* 有能力的同学可以在实现一遍后尝试用less, sass或者stylus等再实现一次
+* 不能使用任何第三方的库
+* 程序执行环境为浏览器
 
 ### 在线学习参考资料
 
-* [MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
-* [MDN CSS入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
+* [发布-订阅模式](https://gold.xitu.io/entry/580b5553570c350068e6c2d6)
+* 更多设计模式相关的资料强烈推荐曾探所著[《JavaScript设计模式与开发实践》](https://book.douban.com/subject/26382780/)
