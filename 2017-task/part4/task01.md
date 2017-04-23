@@ -1,31 +1,27 @@
-# 有趣的鼠标悬浮模糊效果
+# 任务一：表单（一）单个表单项的检验
 ### 任务目的
-* 针对设计稿样式进行合理的HTML架构，包括以下但不限于：
-* 掌握常用HTML标签的含义、用法
-* 能够基于设计稿来合理规划HTML文档结构
-* 理解语义化，合理地使用HTML标签来构建页面
-* 掌握基本的CSS编码，包括以下但不限于：
-* 了解CSS的定义、概念、发展简史
-* 掌握CSS选择器的含义和用法
-* 实践并掌握CSS的颜色、字体、背景、边框、盒模型、简单布局等样式的定义方式
+* 加强对JavaScript的掌握
+* 熟悉常用表单处理逻辑
 
 ### 任务描述
-* 实现图示效果[（点击查看）](https://johnchow2017.github.io/JohnChow-demo/img/006tNbRwly1fcr5jmrmujg30cj06xqv5.gif)
-* 实现文字的流光渐变动画
-* 背景图需要进行模糊处理
-* 实现按钮边框的从中间到两边扩展开
+* 如[示例图](https://johnchow2017.github.io/JohnChow-demo/img/task_2_29_1.jpg)中所示，在页面中实现一个输入框与按钮，要求点击验证按钮后，对输入框中内容进行格式校验，并在其下方显示校验结果
+* 校验规则：
+* 1.字符数为4~16位
+* 2.每个英文字母、数字、英文符号长度为1
+* 3.每个汉字，中文符号长度为2
 
 ### 任务注意事项
 
-* 示例图仅为参考，不需要完全实现一致，其中的图片、文案均可自行设定
-* 尽可能多地尝试不同的、更多的样式设定来实践各种CSS属性
-* HTML 及 CSS 代码结构清晰、规范
+* 要求功能实现与任务描述中完全一致
+* 示例图仅为参考，样式不需要完全实现一致
+* 请注意代码风格的整齐、优雅
+* 代码中含有必要的注释
+* 不允许借助任何第三方组件库实现
 
 ### 在线学习参考资料
 
+* [Web相关名词通俗解释](https://www.zhihu.com/question/22689579)
 * [MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
-* [MDN CSS入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
-* [慕课HTML+CSS基础教程视频](http://http//www.imooc.com/course/list?c=html)
-* [Codrops](https://tympanus.net/codrops/category/playground/page/2/)
-* [w3cplus](http://www.w3cplus.com/)
-* [AlloyTeam](http://www.alloyteam.com/)
+* [慕课HTML+CSS基础教程视频](http://www.imooc.com/learn/9)
+* [JavaScript 表单验证](http://www.w3school.com.cn/js/js_form_validation.asp)
+* [HTML表单指南](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Forms)
