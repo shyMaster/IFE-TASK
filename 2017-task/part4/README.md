@@ -21,9 +21,9 @@ task06 在线预览地址：
 task07 任务要求地址：https://github.com/JohnChow2017/IFE-TASK/blob/master/2017-task/part4/task07.md<br>
 task07 在线预览地址：
 <br>
-## IFE第一阶段任务
+## IFE第四阶段任务
 
-第一阶段任务一共有 7 个题目，如下：
+第四阶段任务一共有 7 个题目，如下：
 
 * 任务一：表单（一）单个表单项的检验
 
