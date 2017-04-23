@@ -36,7 +36,8 @@ let obj = {
  // 这里还需要输出 '你设置了firstName, 新的值为 lalala'
 ```
 3.考虑传递回调函数。在实际应用中，当特定数据发生改变的时候，我们是希望做一些特定的事情的，而不是每一次都只能打印出一些信息。所以，我们需要支持传入回调函数的功能。举个例子。
-```javascriptlet app1 = new Observer({
+```javascript
+let app1 = new Observer({
          name: 'youngwind',
          age: 25
  });
