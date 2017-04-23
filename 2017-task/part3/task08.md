@@ -1,21 +1,20 @@
-# 任务七：实现常见的技术产品官网的页面架构及样式布局
+# 自定义网页右键菜单
 ### 任务目的
-* 通过实现一个常见的技术产品官网，加深对于HTML，CSS的实战能力
-* 学习掌握如何在没有标注的情况下实现设计稿到页面的精确转变
+* 了解js中的oncontextmenu事件
+* 了解如何获取鼠标位置
+* 了解如何实现页面屏蔽右键菜单
 
 ### 任务描述
-* 通过HTML及CSS实现设计稿 [设计稿PSD文件（点击下载）](http://7xrp04.com1.z0.glb.clouddn.com/task_1_7_1.psd)，效果如 [效果图（点击打开）](https://johnchow2017.github.io/JohnChow-demo/img/task_1_7_2.jpg)
-* 设计稿是有一定宽度的，这个宽度为页面的最小宽度，也就是说，当浏览器窗口宽度小于设计稿宽度时，允许出现横向滚动条，页面内容宽度保持不变，但是当浏览器窗口宽度大于设计稿宽度时，页面部分内容的宽度应该保持和浏览器窗口宽度一致，具体哪些部分题目不做具体指明，看看大家的判断如何。
+* 实现鼠标右击时，出现自定义菜单。点击非自定义菜单区域时，隐藏自定义菜单。参考样例（点击查看），实现页面开发，要求实现效果基本一致。
+* 点击自定义菜单条目时，弹出菜单条目名称。
 
 ### 任务注意事项
 
-* 只需要完成HTML，CSS代码编写，不需要写JavaScript
-* 设计稿中的图片、文案均可自行设定
-* 在Chrome中完美实现与设计稿的各项字体、布局、内外边距等样式
-* 有能力的同学可以尝试跨浏览器的兼容性
-* 有能力的同学可以在实现一遍后尝试用less, sass或者stylus等再实现一次
+* 自定义菜单出现在鼠标指针右下方，当右边区域不够大，展示在左下方，同理，当下方区域不够时，展示在鼠标指针上方
+* 注意测试不同情况，尤其是极端情况下的效果
+* 尽量不要使用第三方库，包括jQuery
 
 ### 在线学习参考资料
 
-* [MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
-* [MDN CSS入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
+* [oncontextmenu](http://www.runoob.com/jsref/event-oncontextmenu.html): 了解JavaScript中oncontextmenu的基本知识
+* [event那些事](http://xchb.work/2016/07/25/event%E9%82%A3%E4%BA%9B%E4%BA%8B/) 收集整理的事件相关资料
