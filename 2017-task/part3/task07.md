@@ -1,21 +1,45 @@
-# 任务七：实现常见的技术产品官网的页面架构及样式布局
+# 动态数据绑定（五）
 ### 任务目的
-* 通过实现一个常见的技术产品官网，加深对于HTML，CSS的实战能力
-* 学习掌握如何在没有标注的情况下实现设计稿到页面的精确转变
+* 综合应用本系列的所有知识点
 
 ### 任务描述
-* 通过HTML及CSS实现设计稿 [设计稿PSD文件（点击下载）](http://7xrp04.com1.z0.glb.clouddn.com/task_1_7_1.psd)，效果如 [效果图（点击打开）](https://johnchow2017.github.io/JohnChow-demo/img/task_1_7_2.jpg)
-* 设计稿是有一定宽度的，这个宽度为页面的最小宽度，也就是说，当浏览器窗口宽度小于设计稿宽度时，允许出现横向滚动条，页面内容宽度保持不变，但是当浏览器窗口宽度大于设计稿宽度时，页面部分内容的宽度应该保持和浏览器窗口宽度一致，具体哪些部分题目不做具体指明，看看大家的判断如何。
+* 这是“动态数据绑定”的最后一题了，希望你能坚持到最后。在第四题的基础上，我们考虑如何做到："当数据发生改变时，重新渲染 DOM。" 此目标又可以分为两层难度。
+
+1.相对简单的目标：数据任意部分发生了变化，都重新渲染 DOM。
+2.相对困难的目标：数据的某一部分发生了变动，只重新渲染对应这部分数据的 DOM。
+举个例子。
+```javascript
+let app = new Vue({
+  el: '#app',
+  data: {
+    user: {
+      name: 'youngwind',
+      age: 25
+    },
+    school: 'bupt',
+    major: 'computer'
+  }
+});
+```
+```javascript
+<!-- 页面中原本的 html 模板片段 -->
+<div id="app">
+    <p>姓名：{{user.name}}</p>
+    <p>年龄：{{user.age}}</p>
+</div>
+```
+相对简单的目标是说：<b>无论是修改数据的哪一部分（包括没有在页面中出现的 school 和 major 这两部分），DOM 都会重新渲染。（即便前后渲染结果一致）</b>
+相对困难的目标是说：<b>只有当 user.name 和 user.age 发生改变的时候，DOM 才会重新渲染；而 school 和 major 的变化不会引发重新渲染。</b>
+
+最后，无论你选择哪种难度，能完成本题，就已经很棒了！
+
+如果你想了解更多这个系列的后续，可以访问[我的博客](https://github.com/youngwind/blog)。同时也欢迎通过邮件与我联系，进行更多的交流。
 
 ### 任务注意事项
 
-* 只需要完成HTML，CSS代码编写，不需要写JavaScript
-* 设计稿中的图片、文案均可自行设定
-* 在Chrome中完美实现与设计稿的各项字体、布局、内外边距等样式
-* 有能力的同学可以尝试跨浏览器的兼容性
-* 有能力的同学可以在实现一遍后尝试用less, sass或者stylus等再实现一次
+* 不能使用任何第三方的库
+* 程序执行环境为浏览器
 
 ### 在线学习参考资料
 
-* [MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
-* [MDN CSS入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
+* [vue早期源码学习系列之四：如何实现动态数据绑定](https://github.com/youngwind/blog/issues/87)
